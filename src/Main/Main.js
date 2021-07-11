@@ -23,6 +23,10 @@ function Main() {
             <p><i class="fab fa-kaggle" style={{ fontSize: '27px' }}></i><a href="https://www.kaggle.com/manooi"> - Kaggle</a></p>
             <p><i class="fab fa-linkedin" style={{ fontSize: '20px' }}></i><a href="https://www.linkedin.com/in/sirawit-mahanin-b3a42614a/"> - LinkedIn</a></p>
           </div>
+          <h3>Current Project</h3>
+          <div>
+            <a style={{ color: 'blue' }} href="https://mahanin.com/jibby/">Jibby</a> - web app for parcel delivery service. Built with MERN stack.
+          </div>
         </div>
       </div>
       <div class="box box1">
@@ -71,7 +75,7 @@ function Main() {
       <div class="box box4" id="projects">
         <h2>Projects</h2>
         <ul>
-          <li><a href="https://mahanin.com/jibby">Jibby</a> - web app for parcel delivery service. Built with MERN stack. <em>(part of my demo project presented in job interview @true-e logistics)</em></li>
+          <li><a style={{ color: 'blue' }} href="https://mahanin.com/jibby/">Jibby</a> - web app for parcel delivery service. Built with MERN stack. <em>(part of my demo project presented in job interview @true-e logistics)</em></li>
           <li><a style={{ color: 'blue' }} href="https://github.com/manooi/reactNavbar">reactNavbar</a> - Responsive navbar built with React.</li>
           <li><a style={{ color: 'blue' }} href="https://github.com/manooi/moviesDB">movieDB</a> - web app for movie records. Built with Express + MongoDB and template engine ejs. <em>(part of technical exam @sitron)</em></li>
           <li><a style={{ color: 'blue' }} href="https://github.com/manooi/thaihouse-gen">
