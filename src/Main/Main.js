@@ -241,7 +241,7 @@ function Main() {
         <ul>
           <li>I'm working on a project called 'Kanan'.</li>
           <li>
-            <a style={{ color: "blue" }} href="https://mahanin.com/jibby/">
+            <a style={{ color: "blue" }} href="https://github.com/manooi/jibby">
               Jibby
             </a>{" "}
             - web app for parcel delivery service. Built with MERN stack.{" "}
@@ -249,7 +249,7 @@ function Main() {
               (part of my demo project presented in job interview @true-e
               logistics)
             </em>
-            <em> (this site doesn't work anymore. i'm moving it to cloudflare pages)</em>
+            <em> (the backend doesn't work anymore. I moved the frontend to cloudflare pages)</em>
           </li>
           <li>
             <a
