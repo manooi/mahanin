@@ -1,13 +1,26 @@
 import React from "react";
 import "./Main.css";
+import $ from 'jquery';
 const PUBLIC_URL = process.env.PUBLIC_URL;
+
+// document.getElementById("profile-picture")?.addEventListener('mouseover', (event)=> {
+//   console.log("event", event);
+// });
+$(function () {
+  $("#profile-picture").on('mouseleave', (e) => {
+    $("#profile-picture").attr('src', PUBLIC_URL + "/img/new_profile.jpeg")
+  });
+  $("#profile-picture").on('mouseover', (e) => {
+    $("#profile-picture").attr('src', PUBLIC_URL + "/img/new_profile_swap.png")
+  });
+});
 
 function Main() {
   return (
     <div class="wrapper">
       <div class="box box0">
         <div class="left-panel">
-          <img src={PUBLIC_URL + "/img/profile.jpg"} />
+          <img id="profile-picture" src={PUBLIC_URL + "/img/new_profile.jpeg"} />
           <h2>Sirawit Mahanin</h2>
           <ui>
             <a href="#about">
@@ -249,7 +262,6 @@ function Main() {
               (part of my demo project presented in job interview @true-e
               logistics)
             </em>
-            <em> (the backend doesn't work anymore. I moved the frontend to cloudflare pages)</em>
           </li>
           <li>
             <a
