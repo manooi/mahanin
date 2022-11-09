@@ -49,8 +49,7 @@ function Main() {
           </div>
           <h3>Current Project</h3>
           <div>
-            <p>- Migrating this site to AWS</p>
-            <p>- Implement CI/CD</p>
+            <p><a href="https://คะแนน.com">คะแนน.com</a></p>
           </div>
         </div>
       </div>
@@ -62,10 +61,6 @@ function Main() {
           Once a civil engineer. Now 'Adv App/Cloud Supp & Eng Analyst' at{" "}
           <a href="https://www.itone.co.th/">IT One</a>.
         </h3>
-        <h4>
-          Yes, I still don't know what that means. Application/Cloud Support,
-          Engineer, Analyst, All in one.
-        </h4>
         {/* <h2>
           I was a cost engineer with 3 years’ experience in construction cost
           estimating and quantity surveying.
@@ -78,9 +73,9 @@ function Main() {
       <div class="box box2" id="about">
         <h2>About</h2>
         <ui>
-          <li>27 year-old Thai</li>
+          <li>28 year-old Thai</li>
           <li>
-            M.S. (Computer Science and Information Systems) – NIDA | 2019 – 2022
+            M.S. (Computer Science and Information Systems) – NIDA | 2019 – 2023
             (Anticipated)
           </li>
           <li>
@@ -92,8 +87,9 @@ function Main() {
         <h2>Skills</h2>
         <h3>Dev / Programing</h3>
         <ul>
-          <li>Python, C#, Javascript, VBA.</li>
-          <li> Web development. React, Angular, Node.js and .NET Core.</li>
+          <li>Python, C#, Javascript, Typescript.</li>
+          <li> Web development with Angular.</li>
+          <li>.NET Core., Node.js.</li>
           <li>
             Check out <a href="#projects">Projects</a> section.{" "}
           </li>
@@ -149,7 +145,7 @@ function Main() {
             Adv App/Cloud Supp & Eng Analyst
           </h4>
           <ul>
-            <li>A new joiner! IT One TS infrastructure team.</li>
+            <li>IT One TS Team.</li>
             <li>Past projects:-</li>
             <ul>
               <li>
@@ -172,7 +168,7 @@ function Main() {
                 <a href="https://aws.amazon.com/api-gateway/">
                   AWS API Gateway
                 </a>
-                usage.
+                usage
                 <ul>
                   <li>
                     Reactive approach with <a href="https://rxjs.dev/">rxjs</a>.
@@ -243,6 +239,7 @@ function Main() {
         <h2>Projects</h2>
         <p>This section lists all my coding projects.</p>
         <ul>
+          <li>I'm working on a project called 'Kanan'.</li>
           <li>
             <a style={{ color: "blue" }} href="https://mahanin.com/jibby/">
               Jibby
@@ -252,15 +249,6 @@ function Main() {
               (part of my demo project presented in job interview @true-e
               logistics)
             </em>
-          </li>
-          <li>
-            <a
-              style={{ color: "blue" }}
-              href="https://github.com/manooi/reactNavbar"
-            >
-              reactNavbar
-            </a>{" "}
-            - Responsive navbar built with React.
           </li>
           <li>
             <a
@@ -288,7 +276,7 @@ function Main() {
       <div class="box box6" id="interests">
         <h2>Interests</h2>
         <ul>
-          <li>Vim - the ubiquitous text editor</li>
+          <li>Vim - the ubiquitous text editor. I have been using Vim for 2 years.</li>
           <li>Photography</li>
           <li>Electronics - Arduino/Rasberry Pi</li>
           <li>Video games</li>
