@@ -58,8 +58,8 @@ function Main() {
         <img src={PUBLIC_URL + "/img/lanternbw.jpg"} />
         <h1>Welcome to my home page!</h1>
         <h3>
-          Once a civil engineer. Now 'Adv App/Cloud Supp & Eng Analyst' at{" "}
-          <a href="https://www.itone.co.th/">IT One</a>.
+          Once a civil engineer. Now Analyst at{" "}
+          <a href="https://www.itone.co.th/">IT One </a>. 😎
         </h3>
         {/* <h2>
           I was a cost engineer with 3 years’ experience in construction cost
@@ -249,6 +249,7 @@ function Main() {
               (part of my demo project presented in job interview @true-e
               logistics)
             </em>
+            <em> (this site doesn't work anymore. i'm moving it to cloudflare pages)</em>
           </li>
           <li>
             <a
