@@ -62,7 +62,7 @@ function Main() {
           </div>
           <h3>Current Project</h3>
           <div>
-            <p><a href="https://คะแนน.com">คะแนน.com</a></p>
+            <p><a href="https://succersock.com">succersock.com</a></p>
           </div>
         </div>
       </div>
@@ -96,6 +96,16 @@ function Main() {
           </li>
         </ui>
       </div>
+
+      <div class="box box3" id="2023">
+        <h2>2023 Resolutions</h2>
+        <ui>
+          <li>Complete my MSc 🥹</li>
+          <li>At least 2 AWS certificates</li>
+          <li>Finish uncle Bob's books</li>
+        </ui>
+      </div>
+
       <div class="box box3" id="skills">
         <h2>Skills</h2>
         <h3>Dev / Programing</h3>
@@ -103,15 +113,13 @@ function Main() {
           <li>Python, C#, Javascript, Typescript.</li>
           <li> Web development with Angular.</li>
           <li>.NET Core., Node.js.</li>
-          <li>
-            Check out <a href="#projects">Projects</a> section.{" "}
-          </li>
+          <li>Git</li>
         </ul>
-        <h3>Cloud computing / DevOps</h3>
+        {/* <h3>Cloud computing / DevOps</h3>
         <ul>
           <li>AWS Academy Cloud Foundation certificate.</li>
           <li>Comfortable with Linux/Unix, Git.</li>
-        </ul>
+        </ul> */}
         <h3>Machine Learning, Image Analytics, and Deep Learning</h3>
         <ul>
           <li>
@@ -250,9 +258,9 @@ function Main() {
 
       <div class="box box5" id="projects">
         <h2>Projects</h2>
-        <p>This section lists all my coding projects.</p>
+        <p>This section lists all my coding projects (mostly hobby projects).</p>
         <ul>
-          <li>I'm working on a project called 'Kanan'.</li>
+          <li>I'm working on a project called <a href="https://succersock.com">'Succersock'</a>, a <a href="https://www.soccersuck.com">soccersuck.com</a> replicate.</li>
           <li>
             <a style={{ color: "blue" }} href="https://github.com/manooi/jibby">
               Jibby
