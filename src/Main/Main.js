@@ -100,8 +100,8 @@ function Main() {
       <div class="box box3" id="2023">
         <h2>2023 Resolutions</h2>
         <ui>
-          <li>Complete my MSc 🥹</li>
-          <li>At least 2 AWS certificates</li>
+          <li>Complete my MSc. ✅</li>
+          <li>At least 2 AWS certificates (1/2 ✅)</li>
           <li>Finish uncle Bob's books</li>
         </ui>
       </div>
