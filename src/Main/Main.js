@@ -68,7 +68,7 @@ function Main() {
       </div>
       <div class="box box1">
         {/* Overview - box1 */}
-        <img src={PUBLIC_URL + "/img/lanternbw.jpg"} />
+        <img src={PUBLIC_URL + "/img/yoshinoya.jpg"} />
         <h1>Welcome to my home page!</h1>
         <h3>
           Once a civil engineer. Now Analyst at{" "}
